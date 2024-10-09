@@ -39,6 +39,12 @@
   .header .navbar .navbar-brand:hover {
     color:#f0f0f0;
   }
+
+  .logo {
+    width: 50px; /* Adjust the width as per your logo size */
+    height: auto;
+    margin-right: 10px; /* Adds space between the logo and text */
+  }
   
   .header .navbar .navbar-collapse {
     border-top:1px solid rgba(255,255,255,0.3);

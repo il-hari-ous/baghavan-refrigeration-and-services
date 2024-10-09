@@ -4,11 +4,10 @@
 <div class="container hero">
   <div class="row">
       <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
-          <h1>Exceptional Medical Care for All Ages.</h1>
-          <p> At our Medical Center
-              we combine world class medicine
-              with compassionate care. </p>
-              <a href="{% url 'appointment' %}" class="btn btn-light btn-lg action-button" type="button">Book an appointment</a>
+          <h1>"Taking Care of Every Degree, So You Don’t Have To"</h1>
+          <p> From installation to maintenance and repairs,
+            we ensure precision at every temperature to keep your cooling systems running at their best.</p>
+              <a href="{% url 'appointment' %}" class="btn btn-light btn-lg action-button" type="button">Book a service appointment</a>
       </div>
 
   </div>
@@ -30,35 +29,15 @@
 
             <!-- Team item -->
             <div class="col-xl-3 col-sm-6 mb-5">
-                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="./img/team1.jpg" alt="" class=" mh-100img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                    <h5 class="mb-0">Dr Sai</h5>
-                    <span class="small text-uppercase text-muted">Consultant anesthesiologist</span>
+                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="./img/team1.jpg" alt="" class=" mh-100img-fluid rounded-circle mb-3 img-thumbnail shadow-sm center">
+                    <h5 class="mb-0">Mr M Chakrapani</h5>
+                    <span class="small text-uppercase text-muted">Senior Technician</span>
                 </div>
             </div><!-- End -->
 
-            <!-- Team item -->
-            <div class="col-xl-3 col-sm-6 mb-5">
-                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="/img/team2.jpg" alt="" class=" mh-100 rounded-circle mb-3 img-thumbnail shadow-sm">
-                    <h5 class="mb-0">Dr Samuel </h5>
-                    <span class="small text-uppercase text-muted">Consultant cardiothoracic</span>
-                </div>
-            </div><!-- End -->
+            
 
-            <!-- Team item -->
-            <div class="col-xl-3 col-sm-6 mb-5">
-                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="/img/team3.jpg" alt="" class=" mh-100img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                    <h5 class="mb-0">Dr Sarra</h5>
-                    <span class="small text-uppercase text-muted">Consultant dermatologist</span>
-                </div>
-            </div><!-- End -->
-
-            <!-- Team item -->
-            <div class="col-xl-3 col-sm-6 mb-5">
-                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="/img/team4.png" alt="" class=" mh-100img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                    <h5 class="mb-0">DR John</h5>
-                    <span class="small text-uppercase text-muted">Consultant Obstetrician</span>
-                </div>
-            </div><!-- End -->
+            
         </div>
     </div>
 </section><!-- End -->
@@ -68,8 +47,8 @@
 <section id="services">
   <div class="bg-primary text-center py-5 mb-4">
       <div class="container">
-        <h1 class="fw-light text-white">Services</h1>
-        <p class="overview">We provide compassionate and expert care to our community. You are at the center of everything we do. Let us be your healthcare partner.</p>
+        <h1 class="fw-light text-white">Service You Can Trust, Cooling You Can Rely On"</h1>
+        <p class="overview">At Baghavan Refrigeration & Co, we specialize in keeping your freezers running at peak efficiency, ensuring your products stay fresh. Our expert technicians provide fast, reliable service to minimize downtime and maintain optimal temperatures. From routine maintenance to emergency repairs, we’re here to ensure your freezer systems work flawlessly. Your cooling needs are our top priority, so you can focus on what matters most.</p>
       </div>
     </div>
   <div class="container">
@@ -77,40 +56,44 @@
       <!-- Team Member 1 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/img/service1.jpg" class="card-img-top" alt="...">
+          <img src="{% static 'img/service2.jpg' %}" class="card-img-top" alt="...">
           <div class="card-body text-center">
-            <h5 class="card-title mb-0">Primary Care</h5>
-            <div class="card-text text-black-50">Your personalized medical professionals.</div>
+            <h5 class="card-title mb-0">Upright Freezer</h5>
+            <div class="card-text text-black-50">"Upright Performance, Reliable Service"
+              Our expert technicians keep your upright freezers in optimal condition, so you can access and store your frozen goods without hassle.</div>
           </div>
         </div>
       </div>
       <!-- Team Member 2 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/img/service2.jpg" class="card-img-top" alt="...">
+          <img src="{% static 'img/service1.jpg' %}" class="card-img-top" alt="...">
           <div class="card-body text-center">
-            <h5 class="card-title mb-0">Dermatology</h5>
-            <div class="card-text text-black-50">Your skin care made easy.</div>
+            <h5 class="card-title mb-0">Chest Freezer</h5>
+            <div class="card-text text-black-50">"Deep Storage, Deep Care"
+              We ensure your chest freezers perform efficiently with comprehensive maintenance and repair services, keeping your bulk storage at the perfect temperature.</div>
           </div>
         </div>
       </div>
       <!-- Team Member 3 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/img/service3.jpg" class="card-img-top" alt="...">
+          <img src="{% static 'img/service2.jpg' %}" class="card-img-top" alt="...">
           <div class="card-body text-center">
-            <h5 class="card-title mb-0">Team Member</h5>
-            <div class="card-text text-black-50">Web Developer</div>
+            <h5 class="card-title mb-0">Sliding-door Freezer</h5>
+            <div class="card-text text-black-50">"Smooth Access, Superior Service"
+              We specialize in keeping your sliding door freezers running flawlessly, offering prompt repairs and regular maintenance to ensure effortless access and reliable performance.</div>
           </div>
         </div>
       </div>
       <!-- Team Member 4 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/img/service4.jpg" class="card-img-top" alt="...">
+          <img src="{% static 'img/service1.jpg' %}" class="card-img-top" alt="...">
           <div class="card-body text-center">
-            <h5 class="card-title mb-0">PrEP Therapy</h5>
-            <div class="card-text text-black-50">Stay safe if you are at high exposure of HIV.</div>
+            <h5 class="card-title mb-0">Drawer Freezer</h5>
+            <div class="card-text text-black-50">"Cooling Convenience, Consistent Care"
+              From compact drawer units to commercial-grade systems, we keep your drawer freezers running efficiently, offering personalized service to meet your cooling demands.</div>
           </div>
         </div>
       </div>
@@ -121,7 +104,7 @@
 </section>
 
 <section class="text-center conatiner" style="margin-block:200px;" id="reviews">
-    <h2>Satisfied Patients</h2>
+    <h2>Satisfied Customers</h2>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Carousel indicators -->
         <ol class="carousel-indicators">
@@ -132,9 +115,9 @@
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner">		
             <div class="carousel-item active">
-                <div class="img-box"><img src="/img/patient1.jpg" alt=""></div>
-                <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
-                <p class="overview">Michael Holz</p>
+                <div class="img-box"><img src="{% static 'img/patient1.jpg' %}" alt=""></div>
+                <p class="testimonial">I had an issue with my walk-in freezer, and Your Company  came to the rescue! Their team arrived promptly, diagnosed the problem quickly, and had everything up and running in no time. They were professional, knowledgeable, and took the time to explain the issue and how to prevent it in the future. I’m so impressed with their level of service and attention to detail. I’ll definitely be using them for all my freezer maintenance and repair needs from now on. Highly recommend!</p>
+                <p class="overview">Hariprasad</p>
             </div>
             <div class="carousel-item">
                 <div class="img-box"><img src="/img/patient2.jpg" alt=""></div>
@@ -162,8 +145,8 @@
             <div class="contact-detail-box">
               <i class="far fa-envelope text-colored fa-3x"></i>
               <h4>Get In Touch</h4>
-              <abbr title="Phone">P:</abbr> (123) 456-7890<br>
-              E: <a href="mailto:email@email.com" class="text-muted">email@email.com</a>
+              <abbr title="Phone"></abbr> 8428198212<br>
+              <a href="mailto:baghavanrefrigerationsco@gmail.com" class="text-muted">baghavanrefrigerationsco@gmail.com</a>
             </div>
           </div><!-- end col -->
   
@@ -173,8 +156,9 @@
               <h4>Our Location</h4>
   
               <address>
-              795 Folsom Ave, Suite 600<br>
-              San Francisco, CA 94107<br>
+              NO:2 Thiruvengada nagar 11th cross street,
+              tiruninravur,
+              chennai 602024<br>
             </address>
             </div>
           </div><!-- end col -->
@@ -188,7 +172,7 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="contact-map">
-              <iframe src="https://www.google.com/maps/embed/v1/place?q=New+York+University&amp;key=AIzaSyBSFRN6WWGYwmFi498qXXsD2UwkbmD74v4" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 360px;"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d450.0408853301118!2d80.02273951701665!3d13.123047378217148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5288d97a23ef79%3A0x4cf221b7e437e39b!2s2%2C%2011th%20Cross%20St%2C%20Thiruvengada%20Nagar%2C%20Thiruvenkada%20Nagar%2C%20Tamil%20Nadu%20602024!5e0!3m2!1sen!2sin!4v1728464285929!5m2!1sen!2sin" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 360px;"></iframe>
             </div>
           </div><!-- end col -->
   
